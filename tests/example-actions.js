@@ -51,6 +51,6 @@ describe('Browser Actions', () => {
          const select = $('#preferred-interface')
          select.$$('option')[1].click()
          browser.pause(short)
-         select.selectByVisibleText()
+         select.selectByVisibleText('Command Line')
       }) 
 })
